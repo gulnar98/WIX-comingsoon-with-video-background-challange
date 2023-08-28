@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Document</title>
+</head>
+<body>
+
+  
+
+
+    <nav>
+        <div class="logoContainer">
+            <a href="/">
+            <span class="logo">Skyline .</span>
+            </a>
+        </div>
+        <div class="navLinks">
+            <a class="navLink" href="/">Home</a>
+            <a class="navLink" href="#aboutSection">Subscribe</a>
+        </div>
+        <div class="openNav">
+            <i class="fas fa-bars"></i>
+        </div>
+       
+        
+        <div class="overlay" id="overlay">
+            <div class="closebtn" id="closeNav">&times;</div>
+            <div class="overlay-menu">
+              <a href="#">Link 1</a>
+              <a href="#">Link 2</a>
+              <a href="#">Link 3</a>
+            </div>
+          </div>
+
+
+        </nav>
+        
+         <div class="clockContainer" id="clockContainer">
+          <img src="/asset/clock.png" alt="clock" class="clock">
+          <div class="topText">
+            OUR NEW SITE IS
+          </div>
+          <div class="centeredText">
+            <p>COMING</p>
+            <p>SOON</p>
+          </div>
+          <div class="bottomText">STAY TUNED!</div>
+          <img class="animation" src="https://static.wixstatic.com/media/84770f_a8e9f0928bf844718bc0a55d46c54f56~mv2.gif" alt="animation">
+          
+          <a class="button-down" href="#aboutSection">
+            <i class="fa-solid fa-arrow-down-long"></i>
+          </a>
+
+        </div>
+
+       
+
+        <div id="aboutSection">
+           <h1 class="title">ABOUT SKYLINE</h1>
+           <p class="description">
+            <span class="description-span">I'm a paragraph. Click here to add your own text and edit me. It’s</span>
+            <span class="description-span">easy. Just click “Edit Text” or double click me to add your own content</span>
+            <span class="description-span">and make changes to the font. I’m a great place for you to tell a story</span>
+            <span class="description-span">and let your users know a little more about you.</span>
+           </p>
+
+           
+           <p class="subscribeText">
+            Subscribe to be the first to know about our launch
+           </p>
+
+
+           <form class="subcription">
+             <div class="inputContainer">
+                <label for="email">Email *</label>
+                <input type="text" name="email-adress" placeholder="Enter your email here*" required>
+             </div>
+             <button class="submitBtn">Subcribe Now</button>
+
+            </form>
+
+            <div class="iconContainer">
+                <ul class="iconsList">
+                    <li><i class="fa-brands fa-facebook-f"></i></li>
+                    <li><i class="fa-brands fa-twitter"></i></li>
+                    <li><i class="fa-brands fa-instagram"></i></li>
+                    
+                </ul>
+            </div>
+
+        </div>
+
+
+        <div class="fixedIconContainer">
+            <ul class="fixediconsList">
+                <li><i class="fa-brands fa-facebook-f icons"></i></li>
+                <li><i class="fa-brands fa-twitter icons"></i></li>
+                <li><i class="fa-brands fa-instagram icons"></i></li>
+                
+            </ul>
+        </div>
+
+        <footer>
+            <p class="copyright first">&copy;2035 by Skyline</p>
+            <a class="button-up" href="#clockContainer">
+                <i class="fa-solid fa-arrow-up-long"></i>
+              </a>
+            <p class="copyright powered">Powered and secured by Me</p>
+            
+        </footer>  
+     
+         <video autoplay muted loop id="myVideo">
+            <source src="https://video.wixstatic.com/video/11062b_3e2f37c297534f9ead156265242fbca8/720p/mp4/file.mp4" type="video/mp4">
+            Your browser does not support HTML5 video.
+          </video>
+          <div class="video-overlay">
+            
+          </div>
+       
+    <script src="app.js"></script>
+
+</body>
+</html>
