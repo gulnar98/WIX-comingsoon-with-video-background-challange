@@ -64,9 +64,9 @@ column-gap:36px ;
 
 .animation{
   position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  top: 48%;
+  left: 51%;
+  transform: translate(-48%, -51%);
   z-index:0 ;
 
 
@@ -362,7 +362,6 @@ footer{
 
   
 .overlay{
-  border:solid 2px red;
   display:none;
   height: 100%;
   width: 100%;
@@ -424,19 +423,23 @@ footer{
 
 nav{
   position: static;
-  border:solid 1px red;
   width:90% ;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .topText{
   position: absolute;
   top:15%;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+  text-align: center;
 }
 
 .clockContainer{
   width:90% ;
   margin-top:25%;
-  border:solid 1px red;
 }
 
 .bottomText{
@@ -456,11 +459,10 @@ nav{
 }
 
 #aboutSection{
-  width:80% ;
+  width:90% ;
   flex-direction: column;
   text-align: center;
   margin: 0 auto;
-  border:solid 2px red;
 }
 
 .overlay a {font-size: 20px}
@@ -473,7 +475,7 @@ right: 35px;
 
 .subscribeText{
   width:70% ;
-  font-size:16px ;
+  font-size:18px ;
  align-self: center;
 }
 
@@ -524,5 +526,43 @@ footer {
 
 
 
+
+}
+
+@media (min-width: 1024px) and (max-width: 1440px) {
+  .clockContainer{
+   width: 40%;
+  }
+
+  .animation{
+    position: absolute;
+    top:60%;
+
+  }
+
+  .centeredText{
+    font-size:70px;
+    position: absolute;
+    top:60%;
+    left: 50%;
+    transform: translate(-50%, -60%);
+  }
+
+  .clock{
+    position: relative;
+   }
+
+  .topText{
+    position: absolute;
+    top:35%;
+    left:50.5%;
+    display: none;
+  }
+
+  .bottomText{
+    position:absolute;
+    top:68%;
+    display:none ;
+  }
 
 }
